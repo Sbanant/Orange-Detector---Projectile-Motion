@@ -64,7 +64,7 @@ def plot_trajectory(background_img, positions):
     return background_img
 
 # Path to the input video
-video_path = "Directory to your video"
+video_path = "Directory to your output video"
 
 # Read the blue webp image
 background_img = cv2.imread("Directory to your background image")
