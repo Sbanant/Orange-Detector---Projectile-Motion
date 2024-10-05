@@ -3,7 +3,7 @@ from orange_detector import OrangeDetector
 from kalmanfilter import KalmanFilter
 
 # Video file paths
-input_video_path = "C:/Users/anant/OneDrive/Pictures/Camera Roll/WIN_20240222_09_13_38_Pro.mp4"
+input_video_path = "Input video path"
 output_video_path = "output_video.mp4"
 
 # Open the input video file
