@@ -64,10 +64,10 @@ def plot_trajectory(background_img, positions):
     return background_img
 
 # Path to the input video
-video_path = "C:/Users/anant/Downloads/Pysource-Kalman-filter/output_video.mp4"
+video_path = "Directory to your video"
 
 # Read the blue webp image
-background_img = cv2.imread("C:/Users/anant/Downloads/Pysource-Kalman-filter/Pysource Kalman filter/blue_background.webp")
+background_img = cv2.imread("Directory to your background image")
 
 # Extract positions from the video
 positions = extract_positions(video_path)
